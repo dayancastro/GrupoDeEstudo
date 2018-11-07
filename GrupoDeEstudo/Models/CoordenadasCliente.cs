@@ -7,6 +7,7 @@ namespace GrupoDeEstudo.Models
 {
     public class CoordenadasCliente
     {
+        // teste de commit
         public int Longitude { get; set; }
 
         public int Latitude { get; set; }
