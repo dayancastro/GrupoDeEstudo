@@ -10,7 +10,7 @@ namespace GrupoDeEstudo.Controllers
         {
             CoordenadasCliente coord = new CoordenadasCliente()
             {
-                Latitude = 11,
+                Latitude = 13,
                 Longitude = 22,
             };
             
