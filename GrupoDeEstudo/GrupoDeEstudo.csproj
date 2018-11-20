@@ -149,6 +149,7 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CoordenadasController.cs" />
+    <Compile Include="Controllers\DurvalController.cs" />
     <Compile Include="Controllers\FranciscoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
@@ -157,6 +158,7 @@
     </Compile>
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CoordenadasCliente.cs" />
+    <Compile Include="Models\DurvalInicial.cs" />
     <Compile Include="Models\Francisco.cs" />
     <Compile Include="Models\FranciscoRepository.cs" />
     <Compile Include="Models\Produto.cs" />
@@ -205,6 +207,7 @@
     <Content Include="Views\Coordenadas\Index.cshtml" />
     <Content Include="Views\Teste\Index.cshtml" />
     <Content Include="Views\Francisco\Index.cshtml" />
+    <Content Include="Views\Durval\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

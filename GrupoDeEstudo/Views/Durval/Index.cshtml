@@ -1,0 +1,57 @@
+﻿@using GrupoDeEstudo.Models;
+@model DurvalInicial
+
+@{
+    ViewBag.Title = "Informações Pessoais";
+}
+
+<html>
+
+<head>
+    <style>
+        .bg-1 {
+            background-color: #474e5d;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #b5b5b5;
+            color: #000000;
+        }
+
+        .bg-3 {
+            background-color: #f5e8e8;
+            color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid bg-1 text-center">
+        <h3>Informações Pessoais</h3>
+        <img src="https://goo.gl/pTNZdN" class="img-circle" alt="">
+    </div>
+
+    <div class="container-fluid bg-2 text-center">
+        <h3>@Model.Nome</h3>
+        <p>
+            xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
+            xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx
+            xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx
+            xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx xxxxx  xxxxx xxxxx xxxxx
+        </p>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <h3>@Model.Cidade</h3>
+        <h3>@Model.Estado</h3>
+        <h3>@Model.Telefone</h3>
+
+    </div>
+
+</body>
+
+</html>
+
+
