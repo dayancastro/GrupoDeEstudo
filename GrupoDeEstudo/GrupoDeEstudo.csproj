@@ -147,18 +147,18 @@
     <Compile Include="App_Start\FilterConfig2.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\RouteConfig2.cs" />
+    <Compile Include="Controllers\BrenoController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CoordenadasController.cs" />
-    <Compile Include="Controllers\DurvalController.cs" />
     <Compile Include="Controllers\FranciscoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Breno.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CoordenadasCliente.cs" />
-    <Compile Include="Models\DurvalInicial.cs" />
     <Compile Include="Models\Francisco.cs" />
     <Compile Include="Models\FranciscoRepository.cs" />
     <Compile Include="Models\Produto.cs" />
@@ -207,7 +207,7 @@
     <Content Include="Views\Coordenadas\Index.cshtml" />
     <Content Include="Views\Teste\Index.cshtml" />
     <Content Include="Views\Francisco\Index.cshtml" />
-    <Content Include="Views\Durval\Index.cshtml" />
+    <Content Include="Views\Breno\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
