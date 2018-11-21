@@ -1,0 +1,33 @@
+﻿@using GrupoDeEstudo.Models;
+
+@model Francisco
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Francisco</title>
+</head>
+<body>
+    <div class="text-center">
+        <header class="masthead bg-primary text-white text-center">
+            <!--foto-->
+            <div class="container">
+                <!--nome-->
+                <h3>@Model.Nome</h3>
+                <!--email-->
+                <h5>@Model.Email</h5>
+                <!--frase-->
+                <h5>@Model.Frase</h5>
+            </div>
+        </header>
+        <section class="bg-info">
+            <div class="container">
+                <!--perfil-->
+                <br />
+                <p class="col-md-12">@Model.Sobre</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

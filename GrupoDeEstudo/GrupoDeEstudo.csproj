@@ -142,10 +142,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\BundleConfig2.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\FilterConfig2.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CoordenadasController.cs" />
+    <Compile Include="Controllers\FranciscoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
     <Compile Include="Global.asax.cs">
@@ -153,6 +157,8 @@
     </Compile>
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CoordenadasCliente.cs" />
+    <Compile Include="Models\Francisco.cs" />
+    <Compile Include="Models\FranciscoRepository.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -198,9 +204,11 @@
     <Content Include="Views\Cliente\Index.cshtml" />
     <Content Include="Views\Coordenadas\Index.cshtml" />
     <Content Include="Views\Teste\Index.cshtml" />
+    <Content Include="Views\Francisco\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\img\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
